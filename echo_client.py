@@ -8,7 +8,7 @@ if __name__ == '__main__':
     server_address = ('localhost', 5001)
     print(f"Conectando al servidor en {server_address[0]} y puerto {server_address[1]}")
 
-    sock.connect(server_address)
+    sock.connect(server_address )
 
     try:
         msg = f"Este es el mensaje. Será enviado en trozos de {SOCK_BUFFER} bytes"
