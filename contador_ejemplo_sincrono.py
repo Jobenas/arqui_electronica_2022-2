@@ -1,6 +1,6 @@
 import time
 
-CUENTA = 50000000
+CUENTA = 50_000_000
 
 
 def cuenta(n):

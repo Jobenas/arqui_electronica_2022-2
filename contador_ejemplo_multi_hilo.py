@@ -1,7 +1,7 @@
 import time
 from threading import Thread
 
-CUENTA = 50000000
+CUENTA = 50_000_000
 
 
 def cuenta(n):
